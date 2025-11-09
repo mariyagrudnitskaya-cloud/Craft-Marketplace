@@ -2,8 +2,8 @@ import csv
 import json
 
 # путь к твоему CSV (можешь поменять при необходимости)
-input_csv = "partner_A.csv"
-output_json = "app/palettes/partner_A.json"
+input_csv = "app/palettes/data/partner_A/palette.csv"
+output_json = "app/palettes/data/partner_A/palette.json"
 
 palette = []
 seen_partner_codes = set()
@@ -51,3 +51,4 @@ if duplicate_partner_codes:
         print(f"   - {code}")
 else:
     print("✅ Дубликатов partner_code не найдено.")
+
