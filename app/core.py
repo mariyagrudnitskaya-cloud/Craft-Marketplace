@@ -10,7 +10,7 @@ BASE_STATIC_DIR = "static"
 
 def load_palette(palette_id: str):
     """Загружает JSON-файл палитры по ID"""
-    path = os.path.join("app", "palettes", f"{palette_id}.json")
+    path = os.path.join("app", "palettes", "data", palette_id, "palette.json")
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
@@ -120,3 +120,4 @@ def process_image_to_mosaic(image_bytes, cells_width, cells_height, palette_id="
     }
 
     return result
+
