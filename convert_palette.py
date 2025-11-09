@@ -10,7 +10,7 @@ seen_partner_codes = set()
 duplicate_partner_codes = set()
 
 with open(input_csv, newline='', encoding='utf-8') as csvfile:
-    reader = csv.DictReader(csvfile)
+    reader = csv.DictReader(csvfile, delimiter=";")
     for row in reader:
         try:
             partner_code = str(row["partner_code"]).strip()
@@ -51,4 +51,5 @@ if duplicate_partner_codes:
         print(f"   - {code}")
 else:
     print("✅ Дубликатов partner_code не найдено.")
+
 
