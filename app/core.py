@@ -121,3 +121,4 @@ def process_image_to_mosaic(image_bytes, cells_width, cells_height, palette_id="
 
     return result
 
+
