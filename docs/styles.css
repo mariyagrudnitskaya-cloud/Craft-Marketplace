@@ -44,7 +44,7 @@ body {
 }
 
 .icon-button img {
-  width: 24px;
+  width: auto;
   height: 24px;
 }
 
