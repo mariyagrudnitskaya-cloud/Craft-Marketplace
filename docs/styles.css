@@ -7,7 +7,7 @@
 body {
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", Arial, sans-serif;
-  background: #F77C82; /* под твой темный фон */
+  background: #ff00ff; /* под твой темный фон */
   color: #ffffff;
 }
 
@@ -16,4 +16,5 @@ body {
   margin: 0 auto;
   min-height: 100vh;
 }
+
 
