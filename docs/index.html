@@ -4,14 +4,54 @@
   <meta charset="UTF-8">
   <title>ArtKit</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <div id="app">
-    <!-- Здесь будет твой первый экран (мобильный) -->
+
+    <div class="screen">
+      <header class="top-bar">
+        <button class="icon-button" aria-label="Open menu">
+          <img src="icons/Burger.svg" alt="">
+        </button>
+
+        <div class="top-bar-right">
+          <button class="icon-button" aria-label="Open cart">
+            <img src="icons/Cart.svg" alt="">
+          </button>
+
+          <button class="icon-button" aria-label="Open profile">
+            <img src="icons/User.svg" alt="">
+          </button>
+        </div>
+      </header>
+
+      <main class="hero">
+        <div class="hero-logo">
+          <!-- временная заглушка логотипа, позже вставим твой SVG -->
+          alc
+        </div>
+
+        <h1 class="hero-title">Воплоти свои идеи</h1>
+
+        <p class="hero-subtitle">
+          Придумай картинку или используй любимое фото и
+          получи готовый уникальный набор для творчества
+        </p>
+
+        <a href="#" class="hero-link">Как это работает?</a>
+
+        <button class="primary-button">Создать набор</button>
+      </main>
+    </div>
+
   </div>
+
   <script src="main.js"></script>
 </body>
 </html>
