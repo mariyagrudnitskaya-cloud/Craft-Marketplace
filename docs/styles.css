@@ -17,6 +17,101 @@ body {
   min-height: 100vh;
 }
 
+/* ЭКРАН */
+
+.screen {
+  min-height: 100vh;
+  background: linear-gradient(15deg, #F67780 12%, #FEE3AE 82%);
+  padding: 16px 16px 64px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ХЕДЕР */
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.icon-button img {
+  width: 24px;
+  height: 24px;
+}
+
+.top-bar-right {
+  display: flex;
+  gap: 16px;
+}
+
+/* HERO-БЛОК */
+
+.hero {
+  flex: 1;                 /* занимает всё пространство между хедером и кнопкой */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* центр по вертикали внутри hero */
+  align-items: center;     /* центр по горизонтали */
+  text-align: center;
+}
+
+.hero-logo {
+  font-size: 64px; /* временно */
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.hero-title {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  line-height: 1.4;
+  max-width: 272px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.hero-link {
+  font-size: 16px;
+  text-decoration: underline;
+  color: #ffffff;
+  opacity: 0.5;  /* 50% прозрачности */
+  margin-bottom: 56px;
+}
+
+/* КНОПКА СНИЗУ */
+
+.cta-wrapper {
+  margin-top: auto; /* прижимает блок с кнопкой к низу экрана */
+}
+
+.primary-button {
+  width: 100%;
+  height: 64px;
+  background: #F77C82;           /* цвет кнопки */
+  color: #FFFFFF;                /* цвет текста */
+  border: none;
+  border-radius: 12px;           /* скругление углов */
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.25); /* тень */
+}
+
 
 
 
