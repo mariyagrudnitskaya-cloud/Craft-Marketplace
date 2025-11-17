@@ -1,0 +1,18 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", Arial, sans-serif;
+  background: #0e0e11; /* под твой темный фон */
+  color: #ffffff;
+}
+
+#app {
+  max-width: 430px; /* условный iPhone 14 Pro Max */
+  margin: 0 auto;
+  min-height: 100vh;
+}
