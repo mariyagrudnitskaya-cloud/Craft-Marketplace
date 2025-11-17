@@ -6,8 +6,8 @@
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", Arial, sans-serif;
-  background: #ff00ff;
+  font-family: "Manrope", system-ui, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  background: #4B4949;
   color: #ffffff;
 }
 
@@ -16,6 +16,7 @@ body {
   margin: 0 auto;
   min-height: 100vh;
 }
+
 
 
 
