@@ -196,8 +196,8 @@ body {
 }
 
 .close-icon {
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 18px;
   display: block;
 }
 
@@ -222,6 +222,7 @@ body {
 .menu-link:last-child {
   border-bottom: none;
 }
+
 
 
 
