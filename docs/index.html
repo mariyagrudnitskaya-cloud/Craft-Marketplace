@@ -13,6 +13,7 @@
 
 <body>
   <div id="app">
+    <!-- ПЕРВЫЙ ЭКРАН: ГЛАВНАЯ -->
     <div class="screen">
       <header class="top-bar">
         <button class="icon-button" aria-label="Open menu">
@@ -50,11 +51,34 @@
         <button class="primary-button">Создать набор</button>
       </div>
     </div>
+
+     <!-- ВТОРОЙ ЭКРАН: МЕНЮ -->
+    <div class="screen menu-screen" aria-hidden="true">
+      <div class="menu-panel">
+        <header class="menu-header">
+          <button class="icon-button menu-close" aria-label="Close menu">
+            <img src="Icons/Close.svg" alt="" class="close-icon">
+          </button>
+        </header>
+
+        <nav class="menu-nav">
+          <a href="#" class="menu-link">О нас</a>
+          <a href="#" class="menu-link">Магазины</a>
+          <a href="#" class="menu-link">Частые вопросы</a>
+          <a href="#" class="menu-link">Чат с поддержкой</a>
+          <a href="#" class="menu-link">Стать партнером</a>
+          <a href="#" class="menu-link">Контакты</a>
+        </nav>
+      </div>
+
+      <div class="menu-backdrop"></div>
+    </div>
   </div>
 
   <script src="main.js"></script>
 </body>
 </html>
+
 
 
 
