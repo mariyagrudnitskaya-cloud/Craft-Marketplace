@@ -148,13 +148,15 @@ body {
 /* МЕНЮ */
 
 .menu-screen {
-  /* переопределяем базовый .screen */
-  background: rgba(0, 0, 0, 0.3); /* черный с прозрачностью 30% */
+  position: fixed;                 /* поверх всего */
+  inset: 0;                        /* top:0; right:0; bottom:0; left:0 */
+  z-index: 100;                    /* выше основного контента */
+
+  display: none;                   /* скрыто по умолчанию */
+  background: rgba(0, 0, 0, 0.3);  /* черный фон 30% */
   padding: 0;
-  display: none;
   flex-direction: row;
   align-items: stretch;
-  min-height: 100vh;
 }
 
 .menu-screen.is-open {
@@ -226,6 +228,7 @@ body {
 .menu-link:last-child {
   border-bottom: none;
 }
+
 
 
 
