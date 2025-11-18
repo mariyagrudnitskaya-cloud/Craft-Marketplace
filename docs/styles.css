@@ -23,7 +23,7 @@ body {
 .screen {
   min-height: 100vh;
   background: linear-gradient(15deg, #FEE3AE 12%, #F67780 82%);
-  padding: 16px 16px 64px;
+  padding: 16px 16px 16px;
   display: flex;
   flex-direction: column;
 }
@@ -232,6 +232,7 @@ body {
 .menu-link:last-child {
   border-bottom: none;
 }
+
 
 
 
