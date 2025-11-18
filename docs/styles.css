@@ -21,16 +21,15 @@ body {
 /* ЭКРАН */
 
 .screen {
-  min-height: 100vh;
-  background: linear-gradient(15deg, #FEE3AE 12%, #F67780 82%);
-  padding: 16px 16px 16px;
   display: flex;
   flex-direction: column;
+  height: 100vh; 
+  padding: 0 16px 16px; 
 }
 
 @supports (height: 100dvh) {
   .screen {
-    min-height: 100dvh;
+    height: 100dvh; /* на айфоне — видимая высота */
   }
 }
 
@@ -84,12 +83,11 @@ body {
 /* HERO-БЛОК */
 
 .hero {
-  flex: 1;                 /* занимает всё пространство между хедером и кнопкой */
+  flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* центр по вертикали внутри hero */
-  align-items: center;     /* центр по горизонтали */
-  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-logo img {
@@ -232,6 +230,7 @@ body {
 .menu-link:last-child {
   border-bottom: none;
 }
+
 
 
 
