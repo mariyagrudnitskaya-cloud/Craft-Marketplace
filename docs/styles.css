@@ -29,18 +29,19 @@ body {
 }
 
 .screen.menu-screen {
-  position: fixed;                 /* поверх всего */
-  inset: 0;                        /* top/right/bottom/left = 0 */
-  z-index: 100;                    /* выше главного экрана */
+  position: absolute;  /* было fixed */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;                    /* выше главного экрана */
 
-  display: none;                   /* скрыто по умолчанию */
-  background: rgba(0, 0, 0, 0.3);  /* черный фон 30% */
-
-  padding: 0;                      /* свои отступы */
+  display: none;                   /* по умолчанию скрыто */
+  background: rgba(0, 0, 0, 0.3);  /* черный 30% */
+  padding: 0;
   flex-direction: row;
   align-items: stretch;
 
-  /* переопределяем фон и паддинги обычного .screen */
   background-image: none;
 }
 
@@ -168,22 +169,6 @@ body {
 
 /* МЕНЮ */
 
-.menu-screen {
-  position: fixed;                 /* поверх всего */
-  inset: 0;                        /* top:0; right:0; bottom:0; left:0 */
-  z-index: 100;                    /* выше основного контента */
-
-  display: none;                   /* скрыто по умолчанию */
-  background: rgba(0, 0, 0, 0.3);  /* черный фон 30% */
-  padding: 0;
-  flex-direction: row;
-  align-items: stretch;
-}
-
-.menu-screen.is-open {
-  display: flex;
-}
-
 /* левая панель меню */
 .menu-panel {
   width: 51.3%; /* 200 из 390, чтобы сохранить пропорцию */
@@ -249,6 +234,7 @@ body {
 .menu-link:last-child {
   border-bottom: none;
 }
+
 
 
 
