@@ -108,7 +108,7 @@ body {
   line-height: 1.4;
   max-width: 272px;
   font-weight: 500;
-  margin: 0 0 24px;
+  margin-bottom: 24px;
 }
 
 .hero-link {
@@ -230,6 +230,7 @@ body {
 .menu-link:last-child {
   border-bottom: none;
 }
+
 
 
 
