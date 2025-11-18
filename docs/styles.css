@@ -29,7 +29,7 @@ body {
 }
 
 .screen.menu-screen {
-  position: absolute;  /* было fixed */
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -37,7 +37,7 @@ body {
   z-index: 10;                    /* выше главного экрана */
 
   display: none;                   /* по умолчанию скрыто */
-  background: rgba(0, 0, 0, 0.3);  /* черный 30% */
+  background: rgba(0, 0, 0, 0.3);
   padding: 0;
   flex-direction: row;
   align-items: stretch;
@@ -234,6 +234,7 @@ body {
 .menu-link:last-child {
   border-bottom: none;
 }
+
 
 
 
