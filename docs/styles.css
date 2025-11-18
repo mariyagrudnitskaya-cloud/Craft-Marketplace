@@ -15,6 +15,7 @@ body {
   max-width: 430px; /* условный iPhone 14 Pro Max */
   margin: 0 auto;
   min-height: 100vh;
+  position: relative;
 }
 
 /* ЭКРАН */
@@ -248,6 +249,7 @@ body {
 .menu-link:last-child {
   border-bottom: none;
 }
+
 
 
 
