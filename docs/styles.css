@@ -162,7 +162,7 @@ body {
   width: 51.3%; /* 200 из 390, чтобы сохранить пропорцию */
   min-height: 100vh;
   background: linear-gradient(15deg, #FEE3AE 12%, #F67780 82%); /* как у главного экрана */
-  padding: 0 16px 24px; /* боковые отступы 16, снизу немного воздуха */
+  padding: 16px 16px 24px; /* боковые отступы 16, снизу немного воздуха */
   display: flex;
   flex-direction: column;
 }
@@ -222,6 +222,7 @@ body {
 .menu-link:last-child {
   border-bottom: none;
 }
+
 
 
 
