@@ -27,6 +27,26 @@ body {
   flex-direction: column;
 }
 
+.screen.menu-screen {
+  position: fixed;                 /* поверх всего */
+  inset: 0;                        /* top/right/bottom/left = 0 */
+  z-index: 100;                    /* выше главного экрана */
+
+  display: none;                   /* скрыто по умолчанию */
+  background: rgba(0, 0, 0, 0.3);  /* черный фон 30% */
+
+  padding: 0;                      /* свои отступы */
+  flex-direction: row;
+  align-items: stretch;
+
+  /* переопределяем фон и паддинги обычного .screen */
+  background-image: none;
+}
+
+.screen.menu-screen.is-open {
+  display: flex;
+}
+
 /* ХЕДЕР */
 
 .top-bar {
@@ -228,6 +248,7 @@ body {
 .menu-link:last-child {
   border-bottom: none;
 }
+
 
 
 
