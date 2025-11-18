@@ -92,10 +92,9 @@ body {
 }
 
 .hero-logo img {
-  width: 153px;
+  width: auto;
   height: 88px;
-  object-fit: contain;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .hero-title {
@@ -112,13 +111,6 @@ body {
   margin-bottom: 24px;
 }
 
-.hero-link {
-  font-size: 16px;
-  text-decoration: underline;
-  color: #000000;
-  opacity: 0.5;  /* 50% прозрачности */
-}
-
 .primary-button {
   width: 264px;
   height: 64px;
@@ -130,7 +122,14 @@ body {
   font-weight: 700;
   cursor: pointer;
   box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.25); /* тень */
-  margin-bottom: 24px;
+  margin-bottom: 16px;
+}
+
+.hero-link {
+  font-size: 16px;
+  text-decoration: underline;
+  color: #000000;
+  opacity: 0.5;  /* 50% прозрачности */
 }
 
 @media (max-height: 700px) {
@@ -231,6 +230,7 @@ body {
 .menu-link:last-child {
   border-bottom: none;
 }
+
 
 
 
