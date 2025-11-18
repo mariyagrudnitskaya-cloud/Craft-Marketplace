@@ -28,6 +28,12 @@ body {
   flex-direction: column;
 }
 
+@supports (height: 100dvh) {
+  .screen {
+    min-height: 100dvh;
+  }
+}
+
 .screen.menu-screen {
   position: absolute;
   top: 0;
@@ -226,6 +232,7 @@ body {
 .menu-link:last-child {
   border-bottom: none;
 }
+
 
 
 
